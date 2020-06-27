@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.cart-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-container header {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    background: #F4A722;
+}
+
+.menu-header ul {
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.menu-header ul li a {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.menu-header a {
+    font: 600 16px Poppins, sans-serif;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+.search-container {
+    background: #F4A722;
+    display: flex;
+    padding: 20px 0;
+}
+
+.input-search {
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 50%;
+}
+
+.input-search input {
+    border: none;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.body-container {
+    padding: 40px 80px;
+}
+
+.body-container h1 {
+    margin-bottom: 10px;
+}
+
+.sold-container {
+    float: left;
+}
+
+#marketplace img {
+    display: flex
+}
+
+.resumo-container {    
+    border: 1px solid #dcdce6;
+    padding: 30px;
+    float: right;
+    top: 20%;
+    width: 100%;
+    max-width: 350px;
+}
+
+.resumo-container h1 {
+    font-size: 20px
+}
+
+.finalizar-btn {
+    background-color: #1CAEC1;
+    color: #FFFFFF;
+    margin-top: 20px
+}
+
+.total-produtos {
+    background-color: #F4F4F4;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.total-produtos p {
+    line-height: 20px;
+}
+
+
+.footer-container {
+    width: 100%;
+    padding: 60px 100px;
+    background-color: #1A2638;    
+    bottom: 0;
+    display: table
+}
+
+.footer-container footer {
+    display: flex;
+}
+
+.footer-container h1 {
+    font: 16px Poppins, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.footer-container p {
+    color: #A2A2A2;
+}
+
+.footer-1 {
+    padding: 0 40px 0 0;
+}
+
+.footer-1 p {
+    text-align: left;
+    padding: 10px 0 30px 0;
+}
+
+.menu-footer {
+    padding: 0 60px 0 0;
+}
+
+.menu-footer h1 {
+    font: 16px Poppins, sans-serif;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+}
+
+.menu-footer ul li{
+    display: block;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    margin-bottom: 7px;
+}
+
+.menu-footer a {
+    font: 400 16px Lato, sans-serif;
+    text-decoration: none;
+    color: #21C8DE;
+}
+
+.footer-2 h1 {
+    padding: 0 0 10px 0;
+}
+
+.footer-2 img {
+    padding: 0 0 10px 0;
+    margin: 0
+}

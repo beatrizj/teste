@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 16px Lato, sans-serif;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font: 600 24px Poppins, sans-serif;
+}
+
+button {
+    border: none;
+    padding: 15px 20px;
+    font: 400 16px Poppins, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
