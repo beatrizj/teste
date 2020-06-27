@@ -1,5 +1,5 @@
 import  React  from 'react'
-import { MdSearch } from 'react-icons/md'
+import { MdSearch, MdFormatListBulleted } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 
 import logo from '../../assets/ushop.png'
@@ -33,7 +33,9 @@ export default function Store() {
                     <p>Bem vinda!</p>
                     <p>Fulano</p> 
 
-                    <img src="" alt=""/>  
+                    <img src="" alt=""/> 
+
+                    <MdFormatListBulleted size={16} color="#000000" />
                 </div>                
             </header>      
 
