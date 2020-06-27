@@ -34,22 +34,26 @@ export default function Store() {
                     <p>Fulano</p> 
 
                     <img src="" alt=""/> 
-
-                    <MdFormatListBulleted size={16} color="#000000" />
+                    <Link to="/">
+                        <MdFormatListBulleted size={16} color="#000000" />
+                    </Link>
+                    
                 </div>                
             </header>      
 
             <div className='search-container'>
                 <div>
                     <h1>Todos os produtos</h1>
-                    <Link to="/">Produtos</Link> 
-                    <Link to="/">Todos os produtos</Link>
+                    <Link to="/" className="link-header">Produtos</Link>
+                    <Link to="/" className="link-header">Todos os Produtos</Link>
                 </div>
 
                 <div className="input-search">
                     <input type="text" placeholder="BUSCAR: Digite o nome do produto, marca ou categoria que deseja buscar..."/>
                     
-                    <MdSearch size={20} color="#000000" />
+                    <Link to="/">
+                        <MdSearch size={20} color="#000000" />
+                    </Link>                    
                 </div>                
             </div>       
 
